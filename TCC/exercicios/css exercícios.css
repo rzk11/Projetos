@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 10vh;
+  background: white;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  font-size: 23px;
+  margin-right: 10%;
+}
+.logo {
+  max-height: 170px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #265c8c;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #265c8c;
+  transition: 0.5s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+ color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #18a2d9;
+  border: 2px solid #18a2d9;
+  margin-right: -5%;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #18a2d9;
+  color: #18a2d9;
+}
+.content {
+  position: absolute;
+  top: 23%;
+  left: 6.1%;
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #1c99fe 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+  color: #1f1f25;
+  margin-top: 7.5%;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #265c8c;
+}
+.content p {
+  width: 65%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-boxes.jsGridView .project-box-wrapper {  
+  width: 33.3%;  
+}  
+.project-box {  
+  border-radius: 50px;  
+  padding: 16px;  
+  width: 1150px;
+  height: 150px;
+  margin-left: 90%;
+  margin-top: 10%;
+}  
+.project-box-header {  
+  display: flex;  
+  align-items: center;  
+  justify-content: space-between;  
+  margin-bottom: 16px;  
+}  
+.project-box-content-header {  
+  text-align: center;  
+  margin-bottom: 16px;  
+}  
+
+.project-box-wrapper {  
+  padding: 8px;  
+  transition: 0.2s;  
+}  
+
+.box-content-header {  
+  font-size: 16px;  
+  line-height: 24px;  
+  font-weight: 700;  
+  opacity: 0.7;  
+}  
+.box-content-subheader {  
+  font-size: 14px;  
+  line-height: 24px;  
+  opacity: 0.7;  
+}  
+.realizar{
+  text-align: center;
+}
+.realizara{
+  text-align: center;
+}
+.realizarb{
+  text-align: center;
+}
+.realizar button {
+  color: #02295c;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fff;
+  border: 2px solid #fff;
+  margin-bottom: 2px;
+}
+.realizar button:hover{
+  background: transparent;
+  border-color: #000e3a;
+  color: #000000;
+  cursor: pointer;
+}
+.realizara button{
+  color: #1e649c;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fff;
+  border: 2px solid #fff;
+  margin-bottom: 2px;
+}
+.realizara button:hover{
+background: transparent;
+border-color: #0d60a3;
+color: #000000;
+cursor: pointer;
+}
+.realizarb button{
+  color: #39b5ee;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fff;
+  border: 2px solid #fff;
+  margin-bottom: 2px;
+}
+.realizarb button:hover{
+  background: transparent;
+  border-color: #129ac4;
+  color: #000000;
+  cursor: pointer;
+}
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+  @media (max-width:1600px){
+  .project-box {  
+    margin-left: 65%;
+    }  
+  }
+
+.img{
+   width: 480px;
+   margin-left: 400%;
+   margin-top: -130%;
+   margin-bottom: 10%;
+   }
+  

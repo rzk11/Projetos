@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu perfil</title>
+    <link rel="stylesheet" href="css login.css">
+    <link rel="icon" href="icon.jpeg">
+  
+</head>
+
+<body>
+
+    <nav>
+        <a href="home"></a>
+        <a href="/TCC/home/home.php"><img src="/TCC/imagens/Study2.png" class="logo" /></a>
+        <ul>
+            <li><a href="/TCC/home/home.php">Home</a></li>
+            <li><a href="/TCC/grade/grade horaria.php">Grade Horária</a></li>
+            <li><a href="/TCC/agenda/agenda.php">Agenda</a></li>
+            <li><a href="/TCC/anotacoes/anotações.php">Minhas Anotações</a></li>
+            <li><a href="/TCC/exercicios/exercícios.php">Exercícios</a></li>
+            <li><a href="/TCC/todolist/to do list.php">To Do List</a></li>
+        </ul>
+    </nav>
+    <form method="POST" action="entrada.php" id="login-form" class="login-form" autocomplete="off" role="main">
+        <h1 class="a11y-hidden">Login Form</h1>
+        <div>
+            <label class="label-email">
+                <input type="email" class="text" name="email" placeholder="E-mail" tabindex="1" required />
+                <span class="required">E-mail</span>
+            </label>
+        </div>
+        <input type="checkbox" name="show-password" class="show-password a11y-hidden" id="show-password" tabindex="3" />
+        <label class="label-show-password" for="show-password">
+            <span>Mostrar Senha</span>
+        </label>
+        <div>
+            <label class="label-password">
+                <input type="text" class="text" name="password" placeholder="Senha" tabindex="2" required />
+                <span class="required">Senha</span>
+            </label>
+        </div>
+        <input type="submit" value="Login" />
+        <div class="email">
+            <p>Ainda não tem uma conta?</p><a href="/TCC/cadastro/cadastro.html">Cadastrar</a>
+        </div>
+        <figure aria-hidden="true">
+            <div class="person-body"></div>
+            <div class="neck skin"></div>
+            <div class="head skin">
+                <div class="eyes"></div>
+                <div class="mouth"></div>
+            </div>
+            <div class="hair"></div>
+            <div class="ears"></div>
+            <div class="shirt-1"></div>
+            <div class="shirt-2"></div>
+        </figure>
+    </form>
+
+</body>
+
+</html>
